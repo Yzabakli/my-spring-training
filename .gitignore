@@ -1,0 +1,5 @@
+# Project exclude paths
+/spring-01-Core-IoC-Bean-Annotation/target/
+/spring-02-Core-IoC-Stereotype-Annotation/target/
+/spring-04-Autowiring/target/
+/spring-05-Core-Abstraction/target/

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome to home page <span th:text="${name}"></span></h1>
+<h1>Current course <span th:text="${course}"></span></h1>
+<h1>your id is <span th:text="${id}"></span></h1>
+<h1>List of numbers <span th:text="${numbers}"></span></h1>
+<h1>Today's date is <span th:text="${date}"></span></h1>
+<h1><span th:text="${student}"></span></h1>
+<h1><span th:text="${student.getFirstName()}"></span></h1>
+</body>
+</html>
